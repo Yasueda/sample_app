@@ -7,12 +7,14 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+
     ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [x86_64-linux]
 * System dependencies
 
 * Configuration
 
 * Database creation
+
     20250628070641_create_lists
 * Database initialization
 
