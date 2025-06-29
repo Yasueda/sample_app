@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get 'lists/new'
   post 'lists' => 'lists#create'  #データの追加（保存）ルーティング
-  get 'lists/index'
+  get 'lists' => 'lists#index'  #データのタイトル一覧表示
   get 'lists/show'
   get 'lists/edit'
   get '/top' => "homes#top"
