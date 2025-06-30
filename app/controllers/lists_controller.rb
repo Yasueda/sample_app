@@ -11,7 +11,7 @@ class ListsController < ApplicationController
     if @list.save
     # 4.トップ画面へリダイレクト
     # 詳細画面へリダイレクトに変更
-      redirect_to list_path(list.id)
+      redirect_to list_path(@list.id)
     else
       render :new
     end
